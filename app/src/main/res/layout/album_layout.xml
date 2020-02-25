@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:orientation="vertical">
+
+
+
+
+    <ImageButton
+        android:id="@+id/amamentacao"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/breastfeeding64"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/amamentacaoText"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/amamentacao"
+        android:layout_gravity="center"
+        android:textSize="9dp"
+        android:gravity="center"
+        android:text="Amamentação" />
+
+<!--<ImageView-->
+        <!--android:id="@+id/fraldas"-->
+        <!--android:layout_width="90dp"-->
+        <!--android:layout_height="90dp"-->
+        <!--app:srcCompat="@drawable/fraldas" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Troca de Fraldas"/>-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/mamadeira"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/mamadeira" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Mamadeira"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/alimentacao"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/comida" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Alimentação"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/bebida"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/bebida" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Bebida"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/banho"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/banho" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Banho"/>-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/medicamentos"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/medicamentos" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Medicamentos"/>-->
+
+</LinearLayout>
